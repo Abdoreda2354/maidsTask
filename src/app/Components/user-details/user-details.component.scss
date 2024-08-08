@@ -1,0 +1,53 @@
+.member-details {
+    margin-top: 50px;
+    background-color: #35373a;
+    margin-bottom: 20px;
+}
+
+.profile-img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    animation: slideIn 1s ease-in-out;
+
+}
+
+.card {
+    margin-bottom: 20px;
+}
+main {
+    background-color: #222629;
+    min-height: 100vh;
+    overflow: auto;
+    color: #ccc;
+
+}
+nav{
+    background-color: #35373a!important;
+}
+.navbar-brand{
+color: #ccc;
+}
+.navbar-expand-lg .navbar-collapse {
+
+    justify-content: end;
+}
+.name{
+ color: #86c232;   
+}
+
+button{
+    background-color: #86c23295; color: #fff;
+    width: 10%;
+    padding: 0px;
+    margin-right: 8px;
+}
+
+button:hover{
+    background-color: #86c232bc;
+    color: #fff;
+}
+@keyframes slideIn {
+    from { transform: translateY(-20px); opacity: 0; }
+    to { transform: translateY(0); opacity: 1; }
+}

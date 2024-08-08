@@ -29,10 +29,18 @@
               "src/favicon.ico",
               "src/assets"
             ],
-            "styles": [
-              "src/styles.scss"
+ "styles": [
+  "node_modules/ngx-spinner/animations/ball-scale-multiple.css",
+  "./node_modules/@fortawesome/fontawesome-free/css/all.min.css",
+  "node_modules/bootstrap/dist/css/bootstrap.min.css",
+  "src/styles.scss",
+  "node_modules/ngx-toastr/toastr.css"
+],  
+
+            "scripts": [
+              "./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"
+
             ],
-            "scripts": [],
             "server": "src/main.server.ts",
             "prerender": true,
             "ssr": {
@@ -102,5 +110,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "9344ec6e-e2d7-40ae-af25-8e626e8a57f4"
   }
 }

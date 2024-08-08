@@ -1,0 +1,68 @@
+section {
+    background-color: #222629;
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-container {
+    background-color: rgba(255, 255, 255, 0.826)!important; 
+    padding: 2rem;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    width: 100%; 
+    max-width: 600px; 
+}
+
+h2 {
+    color:  #5b8d15;
+    ;
+    margin-bottom: 40px!important; 
+}
+
+input {
+    color: #333;
+    background-color: rgba(255, 255, 255, 0.132);
+    border: 1px solid #ccc;
+    padding: 0.5rem;
+    border-radius: 10px;
+    width: 100%; 
+    margin-bottom: 1rem;
+}
+
+.input-field {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+
+.form-control:focus {
+    border-color: #86c232; 
+    box-shadow: none; 
+    outline: none; 
+}
+
+form button{
+    background-color: #5b8d15; color: #fff;
+    width: 30%;
+}
+::ng-deep .toast-container {
+    position: absolute;
+    bottom: 0;
+   
+}
+@media (max-width: 816.98px) {
+    .form-container{
+      width: 70%!important;
+    }
+  }
+
+@media (max-width: 500.98px) {
+    .form-container{
+      width: 85%!important;
+    }
+  }
+
